@@ -23,7 +23,7 @@
       _packages = packages; # shell packages without tools
       name = "rust";
       shellHook = ''
-        if [ -f .env ] then
+        if test -f .env; then
           echo direnv: loading local .env
           source .env
         fi
