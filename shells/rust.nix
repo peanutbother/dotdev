@@ -13,7 +13,7 @@
         if pkgs.stdenv.hostPlatform.isDarwin
         then
           with pkgs; [
-            darwin.apple_sdk.frameworks.Foundation
+            apple-sdk
             libiconv
           ]
         else []
