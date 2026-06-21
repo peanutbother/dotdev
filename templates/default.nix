@@ -9,6 +9,10 @@
       description = "nix development environment";
       path = ./nix;
     };
+    nodejs = {
+      description = "nodejs development environment";
+      path = "./nodejs";
+    };
     rust = {
       description = "rust development environment";
       path = ./rust;
