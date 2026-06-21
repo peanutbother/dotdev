@@ -11,7 +11,7 @@
     };
     nodejs = {
       description = "nodejs development environment";
-      path = "./nodejs";
+      path = ./nodejs;
     };
     rust = {
       description = "rust development environment";
